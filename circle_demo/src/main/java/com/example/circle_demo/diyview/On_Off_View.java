@@ -31,6 +31,15 @@ public class On_Off_View extends View implements View.OnClickListener,View.OnTou
     private int max;
     private int downx;
 
+    private selectlistener listener;
+
+    public void setonselectlistener(selectlistener listener){
+        this.listener = listener;
+    }
+
+    public interface selectlistener{
+        void isClickOpen(boolean isopens);
+    }
 
     public On_Off_View(Context context) {
         this(context,null);
@@ -88,6 +97,8 @@ public class On_Off_View extends View implements View.OnClickListener,View.OnTou
             }
 
             isopen = !isopen;
+
+            listener.isClickOpen(isopen);
 
 
         invalidate();

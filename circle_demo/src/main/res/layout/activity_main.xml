@@ -14,6 +14,7 @@
         android:layout_height="wrap_content" />
 
     <com.example.circle_demo.diyview.On_Off_View
+        android:id="@+id/on_off_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

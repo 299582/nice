@@ -1,1 +1,1 @@
-include ':app', ':rk0511', ':circle_demo'
+include ':app', ':rk0511', ':circle_demo', ':rqcode', ':rqcode_2',':flowlayoutdemo'
