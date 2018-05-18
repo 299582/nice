@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.example.zk0514.TitleBar
+        android:id="@+id/top_title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"></com.example.zk0514.TitleBar>
+
+    <com.example.zk0514.MyViewGroup
+        android:id="@+id/myviewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="514dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="53dp"></com.example.zk0514.MyViewGroup>
+
+
+</RelativeLayout>
